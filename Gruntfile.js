@@ -7,11 +7,11 @@ module.exports = function( grunt ) {
     
    watch: {
       css: {
-        files: [ '../assets/_scss/**/*' ],
+        files: [ 'C:/lucianfialho/grunttest/assets/_scss/**/*' ],
         tasks: [ 'compass' ]
       },
       js: {
-        files: '../assets/_js/**/*',
+        files: 'C:/lucianfialho/grunttest/assets/_js/**/*',
         tasks: [ 'uglify' ]
       }
     },
@@ -20,21 +20,19 @@ module.exports = function( grunt ) {
       dist: {
         options: {
           force: true,
-          config: 'config.rb',
+          config: 'C:/lucianfialho/grunttest/assets/config.rb',
           outputStyle: 'compressed'
         }
       }
     },
 
     uglify: {
-      options: {
+      outputStyleptions: {
         mangle: false
       },
       dist: {
         files: {
-          '../build/js/scripts.min.js': [
-            '../assets/js/scripts.js'
-          ]
+            'C:/lucianfialho/grunttest/assets/js/scripts.min.js': ['C:/lucianfialho/grunttest/assets/_js/scripts.js', 'C:/lucianfialho/grunttest/assets/_js/publicidade.js']
         }
       }
     },
@@ -59,16 +57,16 @@ module.exports = function( grunt ) {
           '../README.md',
           '../src',
           '../assets',
-          'C:\lucianfialho\grunttest\node_modules'
+          'C:/lucianfialho/grunttest/node_modules'
         ]
       }
     }
   });
 
   // registrando tarefa default
-  grunt.registerTask( 'default', [ 'watch' ] );
+  grunt.registerTask( 'w', [ 'watch' ] );
 
   // registrando tarefa para deploy
   grunt.registerTask( 'deploy', [ 'ftp-deploy' ] );
 
-};
+};  
