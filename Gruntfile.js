@@ -52,7 +52,11 @@ module.exports = function( grunt ) {
             'C:/lucianfialho/grunttest/.gitignore',
             'C:/lucianfialho/grunttest/README.md',
             'C:/lucianfialho/grunttest/.sass-cache',
-            'C:/lucianfialho/grunttest/node_modules'
+            'C:/lucianfialho/grunttest/node_modules',
+            'C:/lucianfialho/grunttest/assets/_scss',
+            'C:/lucianfialho/grunttest/Gruntfile.js',
+            'C:/lucianfialho/grunttest/.grunt/ftpush'
+
           ],
           simple: true
       }

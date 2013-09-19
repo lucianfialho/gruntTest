@@ -16,6 +16,7 @@
     "matchdep": "~0.1.2",
     "grunt-contrib-compass": "~0.5.0",
     "grunt-ftp-deploy": "0.0.10",
-    "grunt-contrib-ftpush": "~0.3.1"
+    "grunt-contrib-ftpush": "~0.3.1",
+    "grunt-contrib-cssmin": "~0.6.1"
   }
 }
