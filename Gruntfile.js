@@ -37,28 +37,25 @@ module.exports = function( grunt ) {
       }
     },
 
-    'ftp-deploy': {
+    ftpush: {
       build: {
         auth: {
           host: 'weblinux',
           port: 21,
           authKey: 'key1'
         },
-        // Arquivos locais
         src: 'C:/lucianfialho/grunttest',
-        // Local do destino do ftp
         dest: '/var/www/html/gruntTest',
-        
         exclusions: [
-          '../**/.DS_Store',
-          '../**/Thumbs.db',
-          '../.git',
-          '../.gitignore',
-          '../README.md',
-          '../src',
-          '../assets',
-          'C:/lucianfialho/grunttest/node_modules'
-        ]
+            '../**/.DS_Store',
+            '../**/Thumbs.db',
+            '../.git',
+            '../.gitignore',
+            '../README.md',
+            '../src',
+            'C:/lucianfialho/grunttest/node_modules'
+          ],
+          simple: true
       }
     }
   });
@@ -67,6 +64,5 @@ module.exports = function( grunt ) {
   grunt.registerTask( 'w', [ 'watch' ] );
 
   // registrando tarefa para deploy
-  grunt.registerTask( 'deploy', [ 'ftp-deploy' ] );
 
 };  
