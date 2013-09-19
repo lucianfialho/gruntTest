@@ -1,6 +1,6 @@
 module.exports = function( grunt ) {
 
-  // Roda todas as tarefas
+  // Roda todas as tarefas sem precisar defifinir um load pra cada tarefas
   require("matchdep").filterDev("grunt-*").forEach(grunt.loadNpmTasks);
   
   grunt.initConfig({
@@ -47,12 +47,11 @@ module.exports = function( grunt ) {
         src: 'C:/lucianfialho/grunttest',
         dest: '/var/www/html/gruntTest',
         exclusions: [
-            '../**/.DS_Store',
-            '../**/Thumbs.db',
-            '../.git',
-            '../.gitignore',
-            '../README.md',
-            '../src',
+            'C:/lucianfialho/grunttest/**/.DS_Store',
+            'C:/lucianfialho/grunttest/.git',
+            'C:/lucianfialho/grunttest/.gitignore',
+            'C:/lucianfialho/grunttest/README.md',
+            'C:/lucianfialho/grunttest/.sass-cache',
             'C:/lucianfialho/grunttest/node_modules'
           ],
           simple: true
