@@ -1,0 +1,340 @@
+@charset "utf-8";
+
+/* Geral */
+input {font-size:11px; font-family:Arial, Helvetica, sans-serif}
+body {background:#FFF; font:normal 12px Arial, Helvetica, sans-serif; line-height: 13px; color: #666}
+a {text-decoration:none; color: #666}
+a:hover {text-decoration: underline}
+
+/* ================== CORES DO SITE ================== */
+
+#banner_regua { background: #802827;}
+
+/* ======= COR PRIMRIA: Verde ======= */
+/* gerais */ .siteColor, #header #menu #subDpto p, #header.mLines #menu ul.newList li.mn a, #header #menu ul li a span, #center ol.pedido_abas li.on strong, .ofertas li dl dd.parcelas strong, #header #menu #subDpto p#linksolcorp a, .sub_items li a, .sub_items li span, #tagCloud .tagsBody ul li a, #userNav #breadCrumb ul li.strongBread a, #histNavegacao h4, #footerNEW #footerCont #bottom h4,
+/* product */ #product .produto-atributos .produto-por, #product .produto-atributos .parcela strong, #product .produto-atributos .parcelamento .cartao, #product .produto-atributos .frete .estoque, #product .produto-atributos .aproveite .titulo, #product .produto-atributos .aproveite ul li a:hover, #product .imagens-maisInfo .maisInfo ul li a:hover, #product .complemento-compra .info .titulos .complemento, #product .complemento-compra .info .valores .junto .valor, #product .informacoes-produto .ancoras li a, #product .informacoes-produto .categoria .categoria-titulo, #product #produto-garantia-estendida .garantia-estendida .titulo strong, #product #produto-garantia-estendida .garantia-estendida .por .parcela, #product .produto-atributos .produto-cor form label, #product .produto-atributos .produto-voltagem label strong, #product .resultadoFrete ul li strong, #product .resultadoFrete .politica-entrega a, #product .produto-atributos .produto-tenis label, #product .produto-atributos .produto-ddd label strong, #product .confirmacao ul li strong, #product .produtos-semelhantes-indisponivel h3, #product .produtos-semelhantes-indisponivel .produto-compra-info, #product .produto-atributos .produto-pontos .selecione, #product .produto-atributos .produto-pontos .opcao strong, #product .produto-atributos .produto-volume label,
+/* garantia estendida */ .garantia-estendida .sobre-garantia .titulo, .garantia-estendida .lista-garantia ul li .valor .parcelado, .garantia-estendida .lista-garantia .parcelamentoProduto, .garantia-estendida .lightboxCentralAtendimento .apresentacao .titulo, .garantia-estendida .lightboxCentralAtendimento .precisa-de-ajuda h3,
+/* checkout */ .checkout #center table .prazoOk, .checkout #center #lineFrete p span strong.simular, .checkout #ajudaCodigoSeguranca .content h4, .checkout .stepTitles, #userSteps li .on, #userSteps li .onfinalizado,
+/* carrinho */ #carrinho #center table.carrinho_itens .nome span, #carrinho #center table.carrinho_itens td.total, #carrinho #center div.cupom p.desconto_cupom strong, #carrinho #center div.cep p.frete strong, #carrinho #center div.subtotal p strong, #carrinho #center div.desconto p strong, #carrinho #center table.carrinho_itens .prazo span, .carrinho .no_itens p, .checkout #center table .carrinho-garantia-estendida td p span,
+/* login */ #login #center fieldset.cadastrado legend, .esqueciSenha #center #CadastroOk .topTitle strong,
+/* formas de pagamento */ .pagamento #resumo table .vTotal, .pagamento #resumo table .lDesconto strong, .pagamento #resumo table .lCEP #carinhoCepResumo .valor, .pagamento #resumo .agendamento .destaque, .pagamento #resumo .agendamento .telefones a, .pagamento #resumo table .totalLine strong, .pagamento #resumo table .vCupom .linkCupom, .pagamento #endEntrega ul li select,
+/* confirmao pagamento */ #confirm_pgto #center div p.desconto strong, #confirm_pgto #center div p.frete strong, #confirm_pgto #center div.agendamento p.descricao span.valor, #confirm_pgto #center div.agendamento p.telefones span.telbrasil, #confirm_pgto #center div.agendamento p.telefones span.telsp, 
+/* pedido finalizado */ #pedido_finalizado #center div p a, .finalizado #center #boxPedido #nroPedido .numeroPedido span,
+/* cadastro */ .cadastro #center fieldset h4, .cadastropj #center fieldset ul li#liCep a.recover, .cadastropj #center fieldset #liEstadual .obs, .cadEfetuado #center .topTitle strong,
+/* seus pedidos */ #seus_pedidos #center p.desconto strong, #seus_pedidos #center p.frete strong, #seus_pedidos #center p.consulte a,
+/* esqueci minha senha */ #esqueci_senha #center div h3, #reset_senha #center div h3,
+/* busca geral */ #busca_geral #userNav .buscaDetalhes .buscado, #busca_geral #center .buscatopo .lista ul li.lista a, #busca_geral #center .buscatopo .tabela ul li.tabela a, #busca_geral #center .buscatopo .visualizacao ul li a:hover, #busca_geral #center .buscabody .navegacao .exibicao p strong, #busca_geral #center .buscabody .paginacao ul li a:hover,
+/* erros */ #erro_inesperado div p.msg, #erro_inesperado form, #naoencontrada #center div h3, #nao-encontrada .nenhum-resultado .title, .precisa-de-ajuda .ajuda-lista li a, #erro-inesperado .erro h2, #erro-inesperado .erro .acesse a,
+/* todas as lojas */ #todas_lojas .todas_lista p.servicos_all,
+/* componentes */ .lista .produto .departamento ul li a, .produto .detalhes, #detalhesDisplay #infProduto dl dd.porP, #detalhesDisplay #infProduto dl dd.parcP strong, #detalhesDisplay #infProduto .desc strong.descTitle, #detalhesDisplay .descTop a, #agendamentoEntrega .fechar, #ajudaCodigoSeguranca .fechar, .historico-navegacao strong.titulo, .lightboxTituloUnico .abas li.ativo strong {color:#080}
+
+/* product antiga: #product dd.parcela strong, #product #center .compre_tambem li dd.economize span, */
+
+/* bordas e background */
+#header #menu #subDpto, #center .paginacao ol li.on, .checkout #center table .prazoOk, #lockAguardar, .checkout .stepTitles, #seus_pedidos #center .paginacao ol li.on, #busca_geral #center .buscabody .paginacao ul li a:hover, #busca_geral #center .buscabody .paginacao ul li.on a, .produto .produto-content:hover, #product #maisFotosDisplay, #product #alertMessage, .lightbox {border-color:#080}
+.checkout #header #userInfo {background-color:#080}
+
+
+/* ====== COR SECUNDRIA: Laranja ======= */
+/* gerais */ .ulTabs li span:hover, .ulTabs li.on span, .sub_items li.todos a, .sub_items li.todos a span,
+/* garantia estendida */ .lightboxSaibaMais .como-contratar-servico a,
+/* carrinho / brinde */ #carrinho #center fieldset div.cupom p strong, #carrinho #center fieldset div.cep a, #carrinho #center fieldset p.total strong, .checkout #center #lineFrete p a, .checkout #center #lineTotal div span strong, .checkout #center #brinde strong, .brinde #content #center .mensagem,
+/* checkout */ #carrinho #center fieldset .agendamento a, #confirm_pgto #center .agendamento .telefones a,
+/* seus pedidos */ #seus_pedidos #center p.total strong, #seus_pedidos #center p.declaracao a, #seus_pedidos #center dl.status dd,
+/* product */ #product .produto-atributos .frete .estoque .disponibilidade, #product .complemento-compra .info .valores .economize .valor, #product #produto-garantia-estendida .garantia-estendida .tipos strong, #product .aviso-indisponibilidade,
+/* login */ #login #center fieldset.cadastrar legend,
+/* pr cadastro */ #pre_cadastro #center div p,
+/* formas de pagamento */ .pagamento #resumo table .agendamento .vejaRegulamento, .pagamento #endEntrega ul li a.recover, .pagamento #center .alert span strong,
+/* confirmao pagamento */ #confirm_pgto #center p.total strong,
+/* pedido finalizado */ #pedido_finalizado #center div h3, .finalizado #center #boxPedido p span,
+/* cadastro */ #cadastro #center fieldset legend, .cadastro #center fieldset ul li#liCom .obs .title, .cadastro #center #privacidade a,
+/* erros */ #erro-inesperado .erro .contato h3,
+/* solic catalogo */ #solic_catalogo #center fieldset legend {color:#f80}
+
+#product .aviso-indisponibilidade {border-color:#f80}
+
+/* Cor Terciria: Branca */
+/* gerais */ #header #user_menu a, #header .busca label, #header dl#televendas, #header dl#televendas dd a, #header.mLines #menu ul.newList li.todas a span {color:#FFF}
+
+/* bordas e background */
+#header #breadcrumb, #header #breadcrumb #cfFormBread, #header #cfFormCodPromo, #header fieldset.codigo_promo {background:#FFF}
+
+/* ================== FIM CORES SITE ================= */
+
+/* ================== COMPONENTES ================== */
+/* Veja Mais */
+.vejaMais .topo {background:url(/css/skin/comprafacil/comprafacil/vejaMais/seta.png) no-repeat left center}
+/* Ancoras */
+.paraTopo {background-image:url(/css/skin/comprafacil/comprafacil/ancora/paraTopo.png)}
+.paraInfoProduto {background-image:url(/css/skin/comprafacil/comprafacil/ancora/paraInfoProduto.png)}
+/* Icones */
+#erro-busca .nenhum-resultado .title {background-image:url(/css/skin/comprafacil/comprafacil/icone/atencao.png)}
+#erro-inesperado .erro .detalhes {background-image:url(/css/skin/comprafacil/comprafacil/icone/atencao-grande.png)}
+/* Bullets */
+/******.bullet-seta li, .bullet-seta-item {background-image:url(/css/skin/comprafacil/comprafacil/bullet/seta-primario.png)}*****/
+/******.perguntas_frequentes .divTabArea ul li a {background-image:url(/css/skin/comprafacil/comprafacil/bullet/seta-secundario.png)}******/
+/* Paginação */
+#busca_geral #center .buscabody .paginacao ul li.anterior a {background-image:url(/css/skin/comprafacil/comprafacil/paginacao/seta-anterior.png)}
+#busca_geral #center .buscabody .paginacao ul li.proxima a {background-image:url(/css/skin/comprafacil/comprafacil/paginacao/seta-proximo.png)}
+/* Temporário - Mais Fotos */
+#product #maisFotosDisplay .mais_fotos h3 {background-image:url(/css/skin/comprafacil/comprafacil/temporarios/mais-fotos/topo-fundo.png)}
+/* Garantia Estendida */
+.garantia-estendida .sobre-garantia {background-image:url(/css/skin/comprafacil/comprafacil/garantia-estendida/logo.png)}
+
+/* ================ FIM COMPONENTES ================ */	
+	
+
+/* == HEADER == */
+#header, .cartpages #header {background-image:url(/css/skin/comprafacil/comprafacil/header/catalogo/fundo.png)}
+#erro-inesperado h1 a {background-image:url(/css/skin/comprafacil/comprafacil/header/catalogo/logo-grande.png)}
+
+/* LOGO CURVA */
+#header h1, .cartpages #header h1 {background-color:white; background-image:url(/css/skin/comprafacil/comprafacil/header/catalogo/logo-curva.png)}
+
+/* LOGO */
+#header h1 a, .checkout #header h1 a, #erro_inesperado h1 a {background-image:url(/css/skin/comprafacil/comprafacil/header/catalogo/logo.png)}
+
+/* == BUSCA GOOGLE == */
+#header .busca input#buscaInpt {background-image:url(/css/skin/comprafacil/comprafacil/busca/campo-fundo.png)}
+#header .busca input.btn_ok {background-image:url(/css/skin/comprafacil/comprafacil/busca/botao-buscar.png)}
+#footerUserArea #buscaFooter fieldset.busca {background-image:url(/css/skin/comprafacil/comprafacil/busca/lupa.png)}
+#footerUserArea .busca input.buscaInpt {background-image:url(/css/skin/comprafacil/comprafacil/busca/campo-fundo.png)}
+#footerUserArea .busca input.btn_ok {background-image:url(/css/skin/comprafacil/comprafacil/busca/botao-buscar.png)}
+
+/* MINHA CONTA e MEU CARRINHO */
+/* BG Condicional para Estrela */
+#minhaCta #loginDisplay #deslogado, #meuCarr dl,
+#footerUserArea div.minhaCta div.loginDisplay div.deslogado, #footerUserArea div.logado, div.meuCarr dl, #minhaCta #logado
+{background-image:url(/css/skin/comprafacil/comprafacil/carrinho-conta/icones.png)}
+
+/* == MENU == */
+#header #menu ul li.todas a {background-image:url(/css/skin/comprafacil/comprafacil/menu/item-verTodos-fundo.png)}
+
+/* == LEFT == */
+#left .box strong {background-image:url(/css/skin/comprafacil/comprafacil/nav-principal/titulo-fundo-primario.png)}
+#left .box strong.refine_busca {background-image:url(/css/skin/comprafacil/comprafacil/nav-principal/titulo-fundo-secundario.png)}
+
+/* FOOTERNEW */
+#footerUserArea {background-image:url(/css/skin/comprafacil/comprafacil/rodape/fundo.png)}
+
+/* ÍCONES */
+#busca_geral #center .buscatopo .visualizacao ul li.lista a {background-image:url(/css/skin/comprafacil/comprafacil/icone/visualizacao-lista.png)}
+#busca_geral #center .buscatopo .visualizacao ul li.tabela a {background-image:url(/css/skin/comprafacil/comprafacil/icone/visualizacao-tabela.png)}
+.enderecos #center #boxCadastro .container p#novidade {background-image:url(/css/skin/comprafacil/comprafacil/icone/novidade.png)}
+.precisa-de-ajuda .ajuda-lista {background-image:url(/css/skin/comprafacil/comprafacil/icone/ajuda.png)}
+
+/* CHECKOUT */	
+.checkout #header #userInfo strong {background-image:url(/css/skin/comprafacil/comprafacil/header/fluxo/barra-curva.png)}
+.checkout li#ident span.on {background-image:url(/css/skin/comprafacil/comprafacil/header/fluxo/passo1.png)}
+.checkout li#ent span.on {background-image:url(/css/skin/comprafacil/comprafacil/header/fluxo/passo2.png)}
+.checkout li#fped span.on {background-image:url(/css/skin/comprafacil/comprafacil/header/fluxo/passo3.png)}
+.checkout li#ident span.onfinalizado, .checkout li#ent span.onfinalizado, .checkout li#fped span.onfinalizado {background-image:url(/css/skin/comprafacil/comprafacil/header/fluxo/passo-ok.png)}
+
+/* ============================= BOTÕES ============================= */
+/* Genéricos */
+#garantia #center p.avancar a, .carrinho .container .sendBttn, .carrinho #carrBottom .sendBttn, .login #formRight .btAvancar, .cadastro #center div.navBttns span.bg .sendBttn, .esqueciSenha #fluxoBotoes .sendBttn, .esqueciSenha #CadastroOk p.btAvancar a, .finalizado #boxPedido #boleto a, #seus_pedidos .mensagem .boleto a, .cadEfetuado .navBttns #goLj, .garantia-estendida .crosseling .avancar a, #cadEfetuado #center #formCadastro .navBttns .bg .button span {background-image:url(/css/skin/comprafacil/comprafacil/botoes/genericos.png)}
+/* Catalogo */
+.busca-novamente #cmdEnviar, .btQuickView, #detalhesDisplay #infProduto dl dd.btCarrinho a, #cadastradoOfertasPromocoes #pgCadContainer .controle .confirmar a, #product .produto-atributos .btColocarCarrinho a, #product .complemento-compra .info .btColocar2Carrinho, #product #produto-garantia-estendida .garantia-estendida .btGarantiaEstendida, #product .produto-tabela .btColocarCarrinho, #product .confirmacao .btColocarCarrinho, #product .confirmacao .btAlterar {background-image:url(/css/skin/comprafacil/comprafacil/botoes/catalogo.png)}
+/* #product dl.details dd a.carrinho, #product .compre_tambem dd.adicionar a,#product #center .compre_tambem li dd.adicionar a, #product #alertMessage .carrinho, #product dl.details dd a.serv_I, #product dl.details dd a.serv_M */
+/* Fluxo */
+.login #formLeft .btEntrar, .pagamento #ancoras .cartao, .pagamento #ancoras .boleto, .pagamento #ancoras .debito, .pagamento #ancoras .celular, .pagamento ul.formLine .btCartao, .pagamento #center #boxBoleto .btBoleto, .pagamento #center #boxTransferencia ul li .btTef, .pagamento #center #boxCelular .container a.button, .enderecos #center #boxCadastro a.button, .enderecos #center #boxEnderecos a.rightBt, .pagamento #alertMessage .sim a, .finalizado #center #boxPedido a.paginaInicial, .finalizado #center #boxPedido a.efetuarLogoff, .cadastro #center fieldset #btAlterarSenha, .cadastro #center fieldset #btAlterarSenhaPj, .alterarSenha #center #formCadastro #fluxoBotoes a.btAlterar, .carrinho .comprarMais, .esqueciSenha #CadastroOk p.btPagInicial a, .brinde .carrinho_brindes .escolha a, .finalizado #boxPedido #tefCel a, .pagamento .boxCupom .finalizar, .cadEfetuado .navBttns #goLj.paginaInicial {background-image:url(/css/skin/comprafacil/comprafacil/botoes/fluxo.png)}
+
+
+/* ============================= Especificidades ========================= */
+/* Compatibilidade com o contexto Loja */
+.cartpages #header h1 a {left:10px; top:17px}
+.cartpages #header #menu {position:relative}
+.cartpages #header #menu ul {background:url(/css/cfWebNew/img/menu_ul_bg.gif) no-repeat right 0; overflow:hidden}
+.cartpages #header #menu ul li {display: inline; background:url(/css/cfWebNew/img/menu_li_bg.gif) no-repeat 0 1px; float:left; padding: 0 10px}
+.cartpages #header #menu ul li.first {background-position:-5px 1px}
+.cartpages #header #menu.menu-fluido ul li {padding:0}
+.cartpages #header #menu ul li a {height:23px}
+.cartpages #header #menu ul li a span {font-size:11px}
+#left .box > * {background-image: url(/css/cfWebNew/img/box_left_bg.gif)}
+#left .box {background: url(/css/cfWebNew/img/box_left_bgbottom.gif) no-repeat 0 bottom; padding-bottom:4px}
+.sub_items > li, .sub_items h2 > li {border-top: 1px solid #CCCCCC;}
+#footerNEW #footerCont #bottom div#selos {height:170px;}
+
+/*CSS auto-complete da busca*/
+#header .busca, #footerUserArea .busca {position:relative;}
+.auto-sugest{border:3px solid #080; background:#FFF; position:absolute; top:34px; left:-30px; width:auto; min-width:365px; z-index:99999}	
+* html .auto-sugest{width:365px;} /*Correção de largura para IE 6.0*/
+.auto-sugest .title-sugestoes{display:block; text-align:right; padding:5px 10px 5px 0; font-size:11px; color:#080;}
+.auto-sugest .sugestao-content .sugestao-result li{}
+.auto-sugest .sugestao-content .sugestao-result li a{display:block;padding:5px 30px;border-bottom:1px dotted #ebebeb;}
+.auto-sugest .sugestao-content .sugestao-result li a:hover{background:#E5E5E5;}		
+.auto-sugest .sugestao-content .fechar-sugestoes{display:block; text-align:right; padding:10px 10px 5px 0; font-size:11px; color:#f80; text-decoration:underline; cursor:pointer;}
+				
+/*Você quis dizer*/
+#center .spell{text-align:left; margin-bottom:15px;font-weight:bold; padding-left:15px;}
+#center .spell p.spellTxt{font-size:14px; color:#080;}
+#center .spell p.spellTxt span.spellResult{font-size:18px; color:#f80; font-style:italic;}
+
+
+a.com {
+    background: url("/css/img/icone_rastreie_pedido.gif") no-repeat scroll center top transparent;
+    display: block;
+    height: 25px;
+    margin-left: 25px;
+    text-indent: -9000px;
+    width: 45px;
+}
+
+/*Define as cores dos selos de promoções*/
+.selos-promocoes .selo-de-frete{border:1px solid #b54e09; background:#ff6600; color:#fff;}/*Selo de frete*/
+.selos-promocoes .selo-de-desconto{border:1px solid #004f00; background:#008800; color:#fff;}/*Selo de promocoes*/
+
+
+/*Teaser*/
+.teaser{float:left; height:28px;}
+.teaser .noticias{overflow:hidden;}
+.teaser .noticias .anterior, .teaser .noticias .proximo{width:25px; height:28px; background:transparent url(/css/img/59/teaser/setas.png) no-repeat left top; text-indent:-9000em;; float:left;}
+.teaser .noticias .lista{float:left; width:550px; height:26px; border:1px solid #ccc;}
+.teaser .noticias .lista li{display:none; font:bold 12px arial, helvetica, sans-serif; padding:6px 0; color:#080;}
+.teaser .noticias .proximo{background-position:-25px 0;}
+.teaser .titulo-noticias{display:none;}
+
+#product .produto-atributos .btColocarCarrinho a, #product .confirmacao .btColocarCarrinho {width: 260px; background-image: url("/css/skin/comprafacil/comprafacil/botoes/colocar-carrinho-site-seguro.png"); background-position: 0 0;}
+
+
+
+/* NOVOS AJUSTES VALE PRESENTE EM TODAS AS TELAS QUE COMPOEM O MESMO | ALAN FERNANDES DIA 17/02/2012 */
+#carrinho #center #lineCupom {padding: 15px 0 15px; background: #F80; margin-left: -10px; width: 1000px; margin-right: -26px;}
+.checkout #center #lineCupom span { float: left; padding-top: 9px; margin-left: 15px !important;color: white; }
+.checkout #center #lineCupom span strong {float: left; font-size: 19px; color: white; margin-top: -1px;margin-right: 7px; }
+.checkout #center #lineCupom fieldset input.inputs { font-size: 12px;width: 150px; padding-top: 4px; padding-bottom: 3px; height: 20px; color: #9E9E9E; text-align: center; padding-left: 0; background: white; }
+.checkout #center #lineCupom fieldset { float: left; padding-left: 10px; width: 210px; } 
+.checkout #center #lineCupom span#cupom { float: right; width: 109px; text-align: right; margin-right: 27px !important; margin-top: 1px; }
+.checkout #center #lineCupom span#cupom .desc { float:left; margin-right:5px;}
+.checkout #center #lineCupom span#cupom .valor { float: left; font-size: 15px; font-weight: bold; }
+
+
+/* PEDIDO FINALIZADO | ALAN FERNANDE DIA 18/02/2012 */
+.finalizado #center #boxPedido ul {clear: both; padding: 0 !important; }
+.finalizado #center #boxPedido ul li { border-top: 1px solid #DDD; padding: 10px 0; /*width: 100%; float: left;*/}
+.finalizado #center #boxPedido #nroPedido { background: url(/css/checkout/img/boxNroPedido.gif) no-repeat 0 0; float: left; height: 87px; margin-right: 15px; text-align: center; width: 191px; margin-bottom: 1px; }
+.finalizado #center #boxPedido ul li#fConosco { border-bottom: 1px solid #DDD; margin-bottom: 20px; }
+/*.finalizado #center #boxPedido ul li#pedidos {  border-top: 0px !important; width: 100%; float: left; margin: 0px !important;padding: 0px !important;height: 180px; display:none;}*/
+
+/*.finalizado #center #boxPedido ul li#pedidos { border-top: 0px !important; width: 100%; float: left; margin: 0px !important; padding: 0px !important; height: 180px;}
+
+.finalizado #center #boxPedido ul li#pedidos a { text-decoration: none; color: #666; float: left; margin: 0 auto; background: url(/css/checkout/img/btn-enviar-pedido.jpg) no-repeat; width: 197px; height: 32px; text-indent: -9999em; margin-top: 13px; margin-left: 142px; }*/
+
+.finalizado #center #boxPedido ul li#tefCel, .finalizado #center #boxPedido ul li#boleto { overflow: hidden; width: 100% !important;}
+
+.finalizado #center #boxPedido ul li#desc-p{ border-top: 1px solid #DDD; width: 100%; float: left;}
+.finalizado #center #boxPedido ul li#pedidos .title-vp{	width: 208px; height: 46px; float: left; background: url(/css/checkout/img/title-vp.jpg) no-repeat;}
+.finalizado #center #boxPedido ul li#pedidos .faixa { width: 504px;  float: left; color: white; background: #F90; height: 56px; margin-top: 21px; margin-left: -19px; }
+.finalizado #center #boxPedido ul li#pedidos .faixa p { margin: 15px 10px 10px 25px; font-weight: bold; padding-bottom: 5px !important; } 
+.finalizado #center #boxPedido ul li#pedidos .faixa p span{	text-decoration: underline; color: #fff; cursor: pointer}	
+/*.finalizado #center #boxPedido ul li#pedidos a {text-decoration: none; color: #666; float: left; margin: 0 auto; background: url(/css/checkout/img/btn-cf.png) no-repeat; width: 225px; height: 32px; text-indent: -9999em; margin-top: 13px;margin-left: 142px;} */
+.finalizado #center #boxPedido ul li#pedidos a:hover {opacity: 0.75; filter: alpha(opacity=75);}
+
+
+/* IMPRESSÃO DE VALE PRESENTE CONCLUIDO | ALAN FERNANDES DIA 23/02/2012 */
+#btncf{ background: url(/css/checkout/img/btn-cf.png) no-repeat !important; float: left; width: 223px; height: 33px; text-indent: -9999em; margin-left: 120px; margin-top: 14px; margin-bottom: 5px; cursor: p }
+
+.bcondvp {width: 200px;height: auto; float: right; margin-top: -120px; margin-right: 9px;}
+.cod-vp { width: 191px;  height: 14px; border: 2px solid #959595; float: right; font-family: "Arial", Helvetica, sans-serif; color: #080; padding: 8px; font-size: 20px; font-weight: bold; letter-spacing: 1px; }
+
+.b-vale{ width: 510px; height: auto; margin: 0 auto;}
+.bvalet{width: 510px; float: left; height: 17px; background: url(/css/checkout/img/ig-top.png) no-repeat; margin-top:60px;}
+.bvalec { width: 468px; float: left; height: auto; background: url(/css/checkout/img/ig-center.png) repeat-y center top; padding: 21px 20px 10px 22px;  } 
+.bvaleb{width: 510px; float: left; height: 16px; background: url(/css/checkout/img/ig-bottom.png) no-repeat; margin-bottom: 50px;}
+.logov { width: 181px; height: 46px;  float: left;  background: url(/css/checkout/img/logovp.png) no-repeat; margin-top: -12px;margin-left: 6px;}
+.iconvp { width: 211px; height: 46px; float: right; background: url(/css/checkout/img/ivp.png) no-repeat;margin-top: -17px;margin-bottom: 24px; }
+.bvalec h2 {font-family: "Arial", Helvetica, sans-serif; color: #333; font-size: 14px; font-weight: bold; width: 100% !important; float: left;  margin-top: 20px; margin-bottom: 8px; }
+.bvalec h3 { font-family: "Arial", Helvetica, sans-serif; color: #080; font-size: 18px; font-weight: bold;width: 100% !important; float: left; margin-top: 20px; margin-bottom: -2px; }
+
+.bvalec span{font-family: "Arial", Helvetica, sans-serif; color: #080; font-size: 11px; font-weight: normal; }
+.bvalec span a{color: #080; text-decoration:underline; cursor:pointer;}
+.bvalec h4 {font-family: "Arial", Helvetica, sans-serif; color: #080;font-size: 14px; font-weight: bold; width: 100% !important; float: left; margin-top: 20px; margin-bottom: -2px; }
+
+.box-img{ width: 205px; float: left;}
+
+.bvalec p{ font-family: "Arial", Helvetica, sans-serif; color: #333333; font-size: 11px; font-weight: normal; float:left}
+.valor-vale { width: 467px; float: left; border-bottom: 2px solid #CCC; height: 158px;}
+
+.valor-vale h3 { font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #333; float: left; margin-right: 250px; margin-bottom: 7px;}
+.valor-vale-q { font-family: Arial, Helvetica, sans-serif; color: #080; font-size: 90px; width: auto; height: 74px; float: left; font-weight: bold; padding-left: 36px; margin-top: 5px;}
+.vv-moeda { width: auto; padding: 3px; float: left; font-weight: bold; margin-left: -41px; font-size: 30px;}
+.vv-real { font-family: Arial, Helvetica, sans-serif; color: #080;font-size: 111px !important; float: left; margin-top: 30px;}
+.bcondvp p { font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; float: left; color: #333; width: 191px; text-align: center; margin: 0px; margin-top: 6px; }
+
+
+#seus_pedidos #center table.historico td .historico-vale-presente { background: url("/css/img/59/vale-presente-historico.png") no-repeat scroll 0 0 transparent; display: block; float: left; padding-left: 47px; position: relative; top: -2px; height: 21px; margin-bottom: -6px;  }
+
+#seus_pedidos #center table.historico td .historico-vale-presente a {color: #080;}
+#seus_pedidos #center table.historico td a { text-decoration: underline !important; float: left; margin-right: 10px; text-decoration: none;  font-weight: bold; padding-top: 3px; }
+
+.finalizado #center #boxPedido ul li#pedidos .faixa p a { color: white !important; text-decoration: underline; margin: 0px; padding: 0px; width: auto; height: auto; vertical-align: baseline; z-index: 5; }
+
+.finalizado #center #boxPedido ul li#pedidos .faixa p { text-align: center;}
+
+
+/* LIGHTBOX DE ENVIO DO CUPOM VALE PRESENTE */
+#seus_pedidos #lightbox-vale-presente .lightboxBody { border: 1px solid #CCC; width: 613px !important; margin-top: -1px !important; }
+
+#seus_pedidos #lightbox-vale-presente .lightboxBody .xfechar { width: 120px; background-color: #EEE; height: 33px; float: right; position: relative; top: -10px; right: -10px; border-bottom: 1px solid #CCC; border-left: 1px solid #CCC; background-image: url(/css/skin/ipirangashop/acumulo/botoes/fechar.jpg)!important; background-repeat: no-repeat; background-position: 168px 6px; }
+
+#seus_pedidos #lightbox-vale-presente .conteudoLightbox li.primeiro { border-top: none; }
+
+#seus_pedidos #lightbox-vale-presente .conteudoLightbox li { border-top: 1px solid #CCC; margin: 0 10px; height: 40px; line-height: 40px; }
+
+#seus_pedidos #lightbox-vale-presente .conteudoLightbox li.primeiro p { float: left; font-weight: bold; margin-right: 26px; }
+
+#seus_pedidos #lightbox-vale-presente .lightboxBody ul li .cpf { margin-right: 10px !important; }
+
+#seus_pedidos #lightbox-vale-presente .conteudoLightbox li.primeiro input { font-size: 11px; font-family: Arial, Helvetica, sans-serif; }
+
+#seus_pedidos #lightbox-vale-presente .lightboxBody h3 { font-size: 15px; margin: 5px; padding-bottom: 8px; }
+
+#seus_pedidos #lightbox-vale-presente .lightboxBody h3 span { color: #080;}
+
+#seus_pedidos #lightbox-vale-presente .footer-lightbox { height: 51px; background: #E5E5E5; border-bottom: 1px solid #CCC; border-left: 1px solid #CCC; border-right: 1px solid #CCC; position: relative; left: -11px; width: 633px; margin-bottom: -11px; }
+
+#seus_pedidos #lightbox-vale-presente .footer-lightbox ul { list-style: none; }
+
+#seus_pedidos #lightbox-vale-presente .footer-lightbox li { float: left; width: 85px; height: 32px; text-indent: -9000em; margin: 10px 45px; }
+
+#seus_pedidos #lightbox-vale-presente .footer-lightbox .btn-limpar { background: url(http://hml.comprafacil.com.br/css/img/59/vale-presente/btn-limpar.png) no-repeat 0 0; cursor: pointer;}
+
+#seus_pedidos #lightbox-vale-presente .footer-lightbox .btn-imprimir { background: url(http://hml.comprafacil.com.br/css/img/59/vale-presente/btn-imprimir.png) no-repeat 0 0; width: 92px; margin-left: 95px; }
+
+#seus_pedidos #lightbox-vale-presente .footer-lightbox .btn-enviar { background: url(http://hml.comprafacil.com.br/css/img/59/vale-presente/btn-enviar.png) no-repeat 0 0; float: right; cursor: pointer; }
+
+#seus_pedidos .lightbox .fechar { cursor: pointer; position: absolute; left: 34%; font-size: 13px; font-weight: bold; white-space: nowrap; padding-right: 26px; background: url(/css/checkout/img/fechar.jpg) right no-repeat; margin: 0; top: 70px !important; line-height: 12px; height: 23px; padding-top: 11px; margin: 0; }
+
+#seus_pedidos #lightbox-vale-presente .conteudoLightbox { border: 1px solid #CCC; overflow: auto; margin-top: 10px; }
+
+.finalizado #center #boxPedido ul li#pedidos .faixa p a { color: white !important; text-decoration: underline; margin: 0px; padding: 0px; width: auto; height: auto; vertical-align: baseline; background: none; font-size: 11px;  font-family: verdana; text-indent: none !important; float: none; }
+.codigo-promocional .selosHeader li.siteSeguro { background: url(/images/footer/selos/seloSiteSeguro.gif) no-repeat; width: 85px; height: 32px; display: block;}
+.codigo-promocional .selosHeader li { float: left; padding: 0 10px; text-indent: -10000px; display: block; }
+
+/* FORMATAÇÃO DA PARTE DA TELA CONFIRMAÇÃO DE COMPRA DE VALE PRESENTE */
+/*.finalizado #center #boxPedido ul li#pedidos { border-top: 0px !important; width: 100%; float: left; margin: 0px !important; padding: 0px !important; height: 180px; } */
+.finalizado #center #boxPedido ul li#pedidos .title-vp { width: 208px; height: 46px; float: left; background: url(/css/checkout/img/title-vp.jpg) no-repeat; }
+.finalizado #center #boxPedido ul li#pedidos .faixa { width: 504px; float: left; color: white; background: #F90; height: 56px; margin-top: 21px; margin-left: -19px; }
+/*.finalizado #center #boxPedido ul li#pedidos a { text-decoration: none; color: #666; float: left; margin: 0 auto; background: url(/css/checkout/img/btn-enviar-pedido.jpg) no-repeat; width: 197px; height: 32px; text-indent: -9999em; margin-top: 13px; margin-left: 142px; }*/
+
+
+
+
+
+/*Boto de cancelar e trocar forma de pagamento*/
+#seus_pedidos #center div.enderecos{clear:both;}
+.alterar-status-pagamento{list-style:none; margin:20px 0; height:32px;}
+.alterar-status-pagamento li{}
+.alterar-status-pagamento li a{height:32px; text-indent:-9000em; display:block; float:left; margin-right:10px;}
+.botao-cancelar-pedido{background:url(/css/img/59/btn-cancelar-pedido.png) no-repeat 0 0; width:126px;}
+.botao-trocar-endereco{background:url(/css/img/59/btn-trocar-endereco.png) no-repeat 0 0; width:202px;}
+.botao-trocar-forma{background:url(/css/img/59/btn-trocar-pagamento.png) no-repeat 0 0; width:205px;}
+.status .pendencias-pagamento{border:1px solid #f00; float:left; margin-right:10px; padding:2px;}
+.status span{display:block; height:25px; line-height:20px; color:#f00;}
+
+.aviso{background:url(/css/img/59/balao-aviso.png) no-repeat 0 0; color:#fff; font:11px Arial, Helvetica, sans-serif; height:49px; left:950px; padding:10px 10px 10px 20px; position:absolute; top:170px; width:180px; display:none}
+#seus_pedidos .mensagem_cancelamento{background:#FFFFE3; color:#FF6600; display:block; font:bold 13px/33px Arial, Helvetica, sans-serif; height:33px; margin:0 10px 5px; padding-left:13px;}
+
+
+
+
